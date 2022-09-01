@@ -4,6 +4,8 @@ playlist that is visible on your profile. This automates that process and allows
 
 ## Instructions
 1. **Install Dependencies**
+  
+  **Make sure you have python downloaded. https://www.python.org/downloads/**
 
   Open your command prompt and type
 
