@@ -13,7 +13,7 @@ playlist_id = "playlist-id-here"
 numOfSongs = 10 # No more than 50
 ```
 
-You will get your client tokens from the spotify developer dashboard (https://developer.spotify.com/dashboard/). Then you will get your playlist id from your
+You will get your client tokens from the spotify developer dashboard, (https://developer.spotify.com/dashboard/), **Be sure to add `http://localhost:8888/callback` as your redirect url in the Spotify Dev Dashboard**. Then you will get your playlist id from your
 desired playlist's song link. ` https://open.spotify.com/playlist/YOUR-PLAYLIST-ID-HERE `
 
 ![image](https://user-images.githubusercontent.com/83687479/187978856-5410bc2f-a31c-4231-9443-7d076d116c67.png)
