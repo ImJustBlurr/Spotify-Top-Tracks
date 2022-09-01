@@ -3,20 +3,26 @@ A python program to automatically add your top songs to a spotify playlist. Spot
 playlist that is visible on your profile. This automates that process and allows some customization options aswell.
 
 ## Instructions
-- **Set up your `config.py` file.**
+1. **Install Dependencies**
 
-```
-client_id = "client-id-here"
-client_secret="client-secret-here"
+  Open your command prompt and type
 
-playlist_id = "playlist-id-here"
-numOfSongs = 10 # No more than 50
-```
+  `pip install spotipy`
 
-You will get your client tokens from the spotify developer dashboard, (https://developer.spotify.com/dashboard/), **Be sure to add `http://localhost:8888/callback` as your redirect url in the Spotify Dev Dashboard**. Then you will get your playlist id from your
-desired playlist's song link. ` https://open.spotify.com/playlist/YOUR-PLAYLIST-ID-HERE `
+2. **Set up your `config.py` file.**
 
-![image](https://user-images.githubusercontent.com/83687479/187978856-5410bc2f-a31c-4231-9443-7d076d116c67.png)
+  ```
+  client_id = "client-id-here"
+  client_secret="client-secret-here"
+
+  playlist_id = "playlist-id-here"
+  numOfSongs = 10 # No more than 50
+  ```
+
+  You will get your client tokens from the spotify developer dashboard, (https://developer.spotify.com/dashboard/), **Be sure to add `http://localhost:8888/callback` as your redirect url in the Spotify Dev Dashboard**. Then you will get your playlist id from your
+  desired playlist's song link. ` https://open.spotify.com/playlist/YOUR-PLAYLIST-ID-HERE `
+
+  ![image](https://user-images.githubusercontent.com/83687479/187978856-5410bc2f-a31c-4231-9443-7d076d116c67.png)
 
 ---
 
